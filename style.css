@@ -62,11 +62,17 @@ header.small, i, .client{
 }
 
 .event img{
-    box-shadow: 0 0 15px rgb(202, 202, 202);
     transition: .5s;
+    border-radius: 5px;
+}
 
+.event div{
+    overflow: hidden;
+    border-radius: 5px;
 }
 .event img:hover{
     transform: scale(1.1);
 }
-
+.image{
+    width: 90%;
+}
