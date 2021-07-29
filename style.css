@@ -4,7 +4,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-header{
+header, #navigation, .navbar{
     background-color: #264653;
     ;
 }
@@ -20,6 +20,11 @@ header.p{
 
 header.small, i, .client{
     color: #E76F51;
+}
+
+
+.list{
+    list-style: none;
 }
 
 .small-bar{
@@ -75,4 +80,27 @@ header.small, i, .client{
 }
 .image{
     width: 90%;
+}
+
+.loginbtn{
+    width: 100px;
+    margin-left: 30px;
+}
+
+footer{
+    background: #0B0D17;
+
+}
+
+.footertext{
+    color: #b1b1b1;
+
+}
+
+.flist1{
+    margin-left: -2rem;
+}
+.flist{
+    list-style: none;
+    /* margin-left: -2rem; */
 }
