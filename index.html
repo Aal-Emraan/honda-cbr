@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/b6571ae4a5.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/b6571ae4a5.js" crossorigin="anonymous"></script> -->
 </head>
 <body>
 
@@ -22,7 +22,29 @@
                     <p class="fw-light">Computer-controlled digital transistorized with electronic advance</p>
                     <h1 class="mt-2 mb-4">Honda CBR 300R</h1>
                     <p class="fw-light fs-6 lh-md mb-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                    <button class="btn mb-5">Purchase</button>
+                    <button class="btn mb-5" data-bs-toggle="modal" data-bs-target="#modalbox">Purchase</button>
+
+                    <div class="modal fade" id="modalbox" data-bs-backdrop="static">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content text-dark">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-capitalize">do you want to purchase this?</h5>
+                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+
+                                </div>
+                                <div class="modal-body">
+                                    <p>This is one of the fastest bike in Bangladesh road. It is a 165cc engine bike. It looks super sporty.</p>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-primary border-0" data-bs-dismiss="modal">Yes</button>
+                                    <button class="btn btn-warning border-0" data-bs-dismiss="modal">No</button>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
     
                 </div>
     
