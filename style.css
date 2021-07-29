@@ -53,3 +53,20 @@ header.small, i, .client{
     font-weight: 600;
 }
 
+.accordion div:not(:first-child){
+    border-top: 1px solid rgb(224, 224, 224);
+}
+
+.accordion div:not(:last-child){
+    margin-bottom: 1rem;
+}
+
+.event img{
+    box-shadow: 0 0 15px rgb(202, 202, 202);
+    transition: .5s;
+
+}
+.event img:hover{
+    transform: scale(1.1);
+}
+
